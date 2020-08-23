@@ -44,7 +44,7 @@ class TicketControl {
 
   atenderTicket(escritorio) {
     if (this.tickets.length === 0) {
-      return 'Ho hay tickets';
+      return 'No hay tickets';
     }
 
     let numeroTicket = this.tickets[0].numero
